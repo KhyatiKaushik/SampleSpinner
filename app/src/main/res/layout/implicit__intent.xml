@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.naveen.samplespinner.Implicit_Intent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Sample Example for Implicit Intent Using Spinner"
+        android:textSize="18sp"
+        android:layout_margin="15sp"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/implicit_Spinner"
+        android:padding="15sp"
+        ></Spinner>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRIGGER"
+        android:id="@+id/bn_trigger"
+        android:onClick="implicitTrigger"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EXIT"
+        android:id="@+id/bn_exit"
+        android:layout_margin="15sp"
+        android:onClick="exitClick"
+        tools:ignore="OnClick" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SampleSpinner</string>
+
+
+    <!--String Array as you can observe below-->
+    <string-array name="intents">
+
+        <item>Open Browser</item>
+        <item>Dial</item>
+        <item>Google Maps</item>
+        <item>Search On Maps</item>
+        <item>Open Contacts</item>
+        <item>Edit First Contacts</item>
+<!--Using Implicit Intent you can also perform
+Operations like Sending EMail,SMS,sharing files etc.,-->
+    </string-array>
+</resources>
